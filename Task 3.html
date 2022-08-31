@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Student Enrollment Form</title>
+        <link rel="stylesheet" type="text/css" href="Task3.css" />
+    </head>
+    <body>
+        <div id="container">
+            <div id="nameDiv" class="input"><h1 style="color:#000066;">Student Registration Form</h1></div>
+            <div id="nameDiv" class="input">Name: <input id="name" type="text"/> </div>
+            <div  class="input">Email: <input id="email" type="text"/> </div>
+            <div  class="input">Age: <input id="age" type="text"/> </div>
+            <div  class="input">Mobile No.: <input id="mobile" type="text"/> </div>
+            <div  class="input">Gender:     <input id="gender2" type="radio" name="gender" value="Male">Male </input>
+                <input id="gender1" type="radio" name="gender" value="Female"> Female</input>
+            </div>  
+            <div  class="input">Skills:  <input id="check1" type="checkbox" name="check" value="Problem Solving"> 
+                <label for="check1"> Problem Solving </label><br>
+            
+                <input id="check2" type="checkbox" name="check" value="Communication"> 
+                <label for="check2"> Communication </label><br>
+
+                <input id="check3" type="checkbox" name="check" value="Hard Skills"> 
+                <label for="check3"> Hard Skills </label><br>
+            </div>            
+            <br><br>
+            <button id="entry">Register</button><br><br>
+        </div>
+        <table id="display">
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Age</th>
+                <th>Mobile Number</th>
+                <th>Gender</th>
+                <th>Skills</th>
+            </tr>
+        </table>
+        <script src="Task3.js"> </script>
+    </body>
+</html>

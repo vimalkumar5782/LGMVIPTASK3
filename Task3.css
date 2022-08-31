@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    background-color: rgb(255, 153, 255);
+     background: radial-gradient(rgba(245, 145, 82, 0.5), #ffcc66, rgba(203, 235, 90, 0.3));
+     text-align: center;
+}
+#nameDiv {
+    margin-top: 60px;
+}
+.input {
+    font-size: 24px;
+    color: black;
+    font-weight: 700;
+    font-family: "Monospace";
+    margin: 18px;
+}
+#entry {
+    width: 185px;
+    height: 38px;
+    font-size: 24px;
+    font-family: "Monospace";
+    background-color: rgb(255, 102, 0);
+    color: rgb(5, 5, 5);
+    box-shadow: 0 2px 2px 0 rgba(8, 8, 8, 0.5);
+    margin-top: 10px;
+}
+table {
+    border-collapse: collapse;
+    width: 60%;
+    margin: 50px auto;
+}
+table, th, td {
+    border: 2px solid black;
+    padding: 5px;
+}
+th {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Monospace";
+    color: black;
+}
+td {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Monospace";
+    color: black;
+    
+}
